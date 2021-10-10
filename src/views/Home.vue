@@ -17,9 +17,9 @@
           </thead>
           <tbody>
             <tr v-for="(note, index) in notes" :key="index">
-              <td>{{ note.Title }}</td>
-              <td>{{ note.Body }}</td>
-              <td>{{ note.CreateTime }}</td>
+              <td>{{ note.title }}</td>
+              <td>{{ note.body }}</td>
+              <td>{{ note.createTime }}</td>
               <td>
                 <button type="button" class="btn btn-warning btn-sm">Изменить</button>
                 <button type="button" class="btn btn-danger btn-sm">Закончить</button>
